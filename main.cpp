@@ -10,6 +10,6 @@ int main() {
   std::cout << "Enter the second number: ";
   std::cin >> number2;
   
-  int sum = number1 + number2;
+  int sum = number1 + number2;// add
   std::cout << "Sum is " << sum << std::endl;
 }
