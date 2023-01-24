@@ -1,6 +1,8 @@
 { pkgs }: {
 	deps = [
-		pkgs.dotnet-sdk
-    pkgs.omnisharp-roslyn
+		pkgs.clang_12
+		pkgs.ccls
+		pkgs.gdb
+		pkgs.gnumake
 	];
 }
